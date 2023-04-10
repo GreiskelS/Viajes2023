@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <section class="Seccioninicio"> <!--sección de inicio-->
+        <!--barra principal, menú inicio fijo-->
+            <header>
+            <div class="contenedorInicio">
+              <div class="logo">
+      <img src="fotos/logoLanding.png" width=80px height=80px alt="Landing Search">
+            </div>
+      <nav class="navegacion">
+        <a href="index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contacto.html">¡Contáctanos!</a>
+      </nav>       
+        </div>
+          </header>
+        <!--barra principal, menú inicio fijo-->
+
+        
+ <!--fondo página inicio-->
+  <section id="Contenedorfondo">  
+      
+  <div class="fondopagina">
+    <div class="fotoContacto">
+
+    <div class="fototurismo">  
+      <img src="fotos/PresentacionTuristico1.png" alt="fotoContacto">
+        <p><strong>TURISMO</strong></p>
+      <div class="Landing">
+        <p>Landing Search</p>
+        </div>
+      </div>
+    </div> <!--foto conjtacto-->
+
+  <div class="texto">
+    <h2><strong>¡Consulta Disponibilidad!</strong></h2>
+        <p>Formulario de disponibilidad</p>
+      </div> <!--texto-->
+    
+      <div class="reserva_container">
+        <form action="formulario">
+          <div class="botones">
+              <label for="fecha">Fecha</label>
+            </div>
+              <div class="botones">
+                <input type="date" id="fecha" name="fecha" required>
+                  </div>
+            <div class="botones">
+              <label for="nombre"required>Nombre y apellido</label>
+                 </div>
+            <div class="botones">
+              <input type="text" id="nombre" name="nombre" placeholder= "Nombre completo" required>
+                </div>
+              <div class="botones">
+                <label for="email">Correo electrónico</label>
+                  </div>
+              <div class="botones">
+                <input type="email" id="email" name="email" placeholder= " ejemplo@mail.com" required>
+                </div>
+            <div class="botones">
+              <label for="contacto">Teléfono de contacto</label>
+                </div>
+             <div class="botones">
+              <input type="tel" id="contacto" name="contacto" min="0" max="1" placeholder=" +34656123456" required>
+                </div>
+            <div class="botones">
+              <label for="personas">Cantidad de personas</label>
+                </div>
+              <div class="botones">
+                <input type="number" id="personas" name="personas" min="0" max="10" placeholder="0" required>
+                  </div>
+            <div class="botones">
+              <label for="personas">Destino de preferencia</label>
+                </div>
+            <div class="destinos">
+              <select>
+                <option value="Seleccionar">Seleccionar</option>
+                  <option value="Madrid">Madrid</option>
+                  <option value="Alemania">Alemania</option>
+                  <option value="Italia">Italia</option>
+                  <option value="Portugal">Portugal</option>
+              </select>
+            </div> 
+            <div class="botones">
+              <label for="Categoria">Categoria de preferencia</label>
+                </div>
+            <div class="Categoria">
+              <select class="opciinesCiudades">
+                <option value="Seleccionar" required>Seleccionar</option>
+                  <option value="PLaya" required>Playas</option>
+                  <option value="Ciudad" required>Ciudades</option>
+                  <option value="Lagos" required>Lagos</option>
+                  <option value="Montaña" required>Montañas</option>
+              </select>
+                </div>  
+            <div class="Mensaje">
+              <textarea name="Mensaje" id="Mensaje" placeholder="Ingresar mensaje" required></textarea>
+                </div>
+            <div class="espacio"></div> 
+            <div class="botonEnviar">
+              <button id="botonenviar"  value="enviar">Enviar</button>
+            </div>
+          </form> 
+        </div> <!--fin contenedor-->
+      
+   <div class="Reservaya">
+    <h2><strong>¡Reserva ya y consigue un 20% de descuento!</strong></h2>
+        <p>Les estamos esperando...</p>
+      </div> <!--reservaya-->
+        </div> <!--fondo página-->
+          </section>
+            </section>
+
+    <div class="redes">  <!--prefooter-->
+      <div class="facebook">
+        <a href="https://es-es.facebook.com/"><img src="fotos/facebook.png" alt="redes"></a></div>
+      <div class="instagram">
+        <a href="https://www.instagram.com/"><img src="fotos/instagram.png" alt="redes"></a></div>
+      <div class="gmail">
+        <a href="https://www.gmail.com/mail/help/intl/es/about.html?iframe"><img src="fotos/gmail.png" alt="redes"></a></div>
+      <div class="whatsapp">
+        <a href="https://www.whatsapp.com/?lang=es"><img src="fotos/whatsapp.png" alt="redes"></a></div>
+        </div>
+    
+    <footer>
+<div class="footer">
+  <p>&copy;Copyright LandingSearch 2023</p>
+    </div> 
+    </footer>
+    <script src="js\contacto.js"></script> 
+</body>
+</html>

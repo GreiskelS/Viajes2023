@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/*menu header*/
+header {
+  background-color: rgb(37, 34, 29);
+  width: 100%;
+  height: 80px;
+  z-index: 3;
+  text-align: end;
+  position: fixed;
+}
+header .navegacion{
+  display: flex;
+  text-align: end;
+  flex-direction: row;
+  padding: 30px;
+  }
+.contenedorInicio {
+  display: flex;
+  justify-content:space-between;
+  height: 100%;
+  width: 100%;
+}
+header a{
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(239, 220, 194);
+  transition: all 0.1s ease;
+}
+header a:hover{
+  background: rgb(82, 77, 77);
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+
+
+#Contenedorfondo {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 253, 253);
+  height: 3000px;
+  width: 100%;
+  background-size: cover;
+ }
+.fondopagina {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(240, 243, 245, 0.823);
+  height: 3000px;
+  width: 95%;
+  margin-left: 0%;
+  text-align: justify;
+  justify-content: center;
+  overflow: hidden;
+}
+img {
+width: 100%;
+}
+.row {
+  display: flex;
+  justify-content:center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.textorow {
+  background-color: rgba(0, 0, 0, 0.684);
+  border-radius: 10%;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  padding: 0;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.columna {
+  flex: 25%;
+  padding: 5px;
+}
+.columna img {
+  margin-top: 5px;
+}
+
+
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+   width: 100%;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.86);
+  overflow: hidden;
+}
+.footer p {
+  color: rgba(240, 255, 255, 0.805);
+  overflow: hidden;
+}
+.redes{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  overflow: hidden;
+}
+ .redes img {
+   width: 40px;
+  height: 40px;
+ }
+ redes:hover {
+  transform: scale(0.2);
+}
+@media (max-width: 600px){
+  .columna {
+    flex: 60%;
+  }
+}
+@media (max-width: 1000px){
+  .columna {
+    flex: 100%;
+  }
+}
