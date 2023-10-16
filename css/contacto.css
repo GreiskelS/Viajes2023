@@ -18,14 +18,14 @@ html {
 /*main*/
 #backgroundcontent {
   background-image: url(fotos/Foto-madera-fondo.jpg);
-  height: 1100px;
+  height: 1200px;
   width: 100%;
   background-size: cover;
 }
 
 .cuadradobase {
   background-color: rgb(240, 248, 255);
-  height: 1100px;
+  height: 1200px;
   width: 95%;
   margin-left: 2.5%;
   overflow: hidden;
@@ -195,31 +195,31 @@ textarea {
   border-radius: 1em;
 }
 
-/*footer*/
 .footer {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color:rgba(0, 0, 0, 0.86);
+  background-color: rgba(0, 0, 0, 0.86);
   overflow: hidden;
-  position: fixed;
 }
+
 .footer p {
   color: rgba(240, 255, 255, 0.805);
   overflow: hidden;
 }
-.networks{
-  display:flex;
+
+.networks {
+  display: flex;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   overflow: hidden;
-  position: fixed;
 }
- .networks img {
+
+.networks img {
   width: 40px;
   height: 40px;
- }
+}
 
 
 
@@ -259,14 +259,15 @@ textarea {
 }
 
 
+
 /*mediaquery*/
 @media(min-width:768px) {
 
   .Carrusel a img {
     width: 100%;
   }
-    
-    .pie-copyright {
-      display: flex;
-    }
+
+  .pie-copyright {
+    display: flex;
+  }
 }
