@@ -4,33 +4,33 @@
   margin: 0;
   outline: 0;
 }
-
 body {
   margin: 0;
   box-sizing: border-box;
   padding: 0%;
 }
-
 html{
   scroll-behavior: smooth;
 }
 
 /*menu header*/
 header {
+  position: fixed;
+  z-index: 100;
   background-color: rgb(37, 34, 29);
   width: 100%;
   height: 80px;
-  z-index: 3;
   text-align: end;
-  position: fixed;
 }
-header .navegacion{
+
+header .navegation{
   display: flex;
   text-align: end;
   flex-direction: row;
   padding: 30px;
   }
-.contenedorInicio {
+
+.indexcontent {
   display: flex;
   justify-content:space-between;
   height: 100%;
@@ -50,16 +50,16 @@ header a:hover{
 }
 
 
-#Contenedorfondo {
+#backgroundcontent {
   display: flex;
+  align-items: center;
   justify-content: center;
   background-color: rgba(10, 10, 10, 0.703);;
   height: 1600px;
   width: 100%;
   background-size: cover;
-  padding: 0;
  }
-.fondopagina {
+.pagephoto {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -68,11 +68,9 @@ header a:hover{
   width: 95%;
   text-align: justify;
   overflow: hidden;
-  padding: 0;
 }
-.cuadro1 img {
+.square1 img {
   display: flex;
-  flex: 0%;
   padding: 5px;
   width: auto;
   height: 300px;
@@ -80,23 +78,17 @@ header a:hover{
  p {
   text-align: justify;
  }
-.cuadro1 {
+.square1 {
   display: flex;
   flex-wrap: wrap;
    margin-top: 50px;
    margin-bottom: 5px;
 }
 
-h2 {
+h2.tour {
  text-align: center;
  padding: 10px;
 }
-
-
-
-
-
-
 
 
 /*footer*/
@@ -112,27 +104,43 @@ h2 {
   color: rgba(240, 255, 255, 0.805);
   overflow: hidden;
 }
-.redes{
+.networks{
   display:flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
   overflow: hidden;
 }
- .redes img {
+ .networks img {
    width: 40px;
   height: 40px;
  }
- redes:hover {
-  transform: scale(0.2);
-}
-/*mediaquery*/
+
+
 @media(min-width:2000px){
 
-  .cuadro1 {
-    display: flex;
+  .square1 {
+ 
+    margin: 100px;
   }
-  }
-
+  .square1 img {
+    height: 600px;
+    width: 100%;
+   }
   .pie-copyright {
       display: flex;
+  }
+}
+
+@media(max-width:2000px){
+  .square1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .square1 img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+
+     }
   }

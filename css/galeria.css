@@ -23,13 +23,13 @@ header {
   text-align: end;
   position: fixed;
 }
-header .navegacion{
+header .navegation{
   display: flex;
   text-align: end;
   flex-direction: row;
   padding: 30px;
   }
-.contenedorInicio {
+.maincontent {
   display: flex;
   justify-content:space-between;
   height: 100%;
@@ -50,7 +50,7 @@ header a:hover{
 
 
 
-#Contenedorfondo {
+#backgroundcontent {
   display: flex;
   justify-content: center;
   background-color: rgb(255, 253, 253);
@@ -58,7 +58,7 @@ header a:hover{
   width: 100%;
   background-size: cover;
  }
-.fondopagina {
+.backgroundpage {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,11 +91,11 @@ width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.columna {
+.column {
   flex: 25%;
   padding: 5px;
 }
-.columna img {
+.column img {
   margin-top: 5px;
 }
 
@@ -113,26 +113,24 @@ width: 100%;
   color: rgba(240, 255, 255, 0.805);
   overflow: hidden;
 }
-.redes{
+.networks{
   display:flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
   overflow: hidden;
 }
- .redes img {
+ .networks img {
    width: 40px;
   height: 40px;
  }
- redes:hover {
-  transform: scale(0.2);
-}
+
 @media (max-width: 600px){
-  .columna {
+  .column {
     flex: 60%;
   }
 }
 @media (max-width: 1000px){
-  .columna {
+  .column {
     flex: 100%;
   }
 }

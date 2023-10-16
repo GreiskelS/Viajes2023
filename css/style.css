@@ -17,11 +17,11 @@ html{
 
 
 /*carrusel*/
-.carrusel {
+.carousel {
     display: flex;
     align-items:first baseline;
   }
-.carrusel-items {
+.carousel-items {
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -29,35 +29,39 @@ html{
     margin-top:  50px;
     
   }
-.carrusel-item {
+.carousel-item {
     min-width: 300px;
     max-width: 300px;
     height: 250px;
     outline: 2px solid black;
     cursor: pointer;
   }
-.carrusel-item img {
+.carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-.carrusel-item:hover {
+.carousel-item:hover {
     transform: scale(1.1);
   }
 
-
-/*main*/
-#Contenedorfondo {
+#backgroundmain {
         background-image: url(fotos/Foto-madera-fondo.jpg);
         height: 1500px;
         width: 100%;
         background-size: cover;
     }
 
-  #Contenedorfondo img { 
-    background-image: opacity: .10;
+  #backgroundmain img { 
+    background-image: opacity .10;
   }
-.cuadradobase {
+  .indexcontent {
+    display: flex;
+    justify-content:space-between;
+    height: 100%;
+    width: 100%;
+  }
+.base {
   background-color: rgb(240, 248, 255);
   height: 1500px;
   width: 95%;
@@ -65,7 +69,6 @@ html{
   overflow: hidden;
 }
 
-/*menu header*/
 header {
   background-color: rgb(37, 34, 29);
   width: 100%;
@@ -74,13 +77,13 @@ header {
   text-align: end;
   position: fixed;
 }
-header .navegacion{
+header .navegation{
   display: flex;
   text-align: end;
   flex-direction: row;
   padding: 30px;
   }
-.contenedorInicio {
+.maincontent {
   display: flex;
   justify-content:space-between;
   height: 100%;
@@ -101,17 +104,17 @@ header a:hover{
 
 
 /*destinos*/
-.acercadestinos {
+.about {
   display: flex;
   justify-content: center;
   background-color: rgba(224, 217, 201, 0.614);
   padding: 20px;
   margin-bottom: 10px;
 }
-.acercadestinos h1 {
+.about h1 {
   color: rgba(0, 0, 0, 0.814);
 }
-.secciones {
+.sections {
   display: grid;
   grid-template-columns: repeat(4, 120px);
 	grid-template-rows: repeat(1, 120px);
@@ -160,7 +163,7 @@ header a:hover{
 .destinosDestacados h1 {
   color: rgb(255, 254, 254);
 }
- .destacados {
+ .featured {
   display: grid;
   grid-template-columns: repeat(4, 230px);
 	grid-template-rows: repeat(2, 230px);
@@ -170,18 +173,18 @@ header a:hover{
   width: 100%;
   background-color: rgba(252, 252, 252, 0.642);
  }
- .destacados img { 
+ .featured img { 
   height: 100%;
   width: 100%;
  }
-.destacados p {
+.featured p {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
 }
 
 /*capitales*/
- .capitales {
+ .capital {
   height: 250px;
   width: 100%;
  
@@ -191,13 +194,13 @@ header a:hover{
   height: 250px;
   width: 100%;
  }
-.destacados p {
+.featured p {
  margin-top: 20px;
 }
 
 
 /*reseñas*/
-.reseñas {
+.reviews {
   display:flex;
   justify-content:space-between ;
   background-color: rgba(72, 69, 65, 0.179);
@@ -206,20 +209,20 @@ header a:hover{
   padding-right: 10px;
   padding-left: 10px;
 }
-.reseñas h1 {
+.reviews h1 {
   align-content: center;
   margin-top: 70px;
   color: rgb(20, 21, 21);
   height: 200px;
   width: auto;
 } 
-.reseñas img {
+.reviews img {
   display:flex;
   margin-bottom: 20px;
   height: 200px;
   width: auto;
 }
-.reseñas p {
+.reviews p {
   align-content:center;
   text-align: justify;
   margin-top: 30px;
@@ -229,26 +232,26 @@ header a:hover{
   padding-left: 20px;
   padding-right: 20px;
 }
-.parraforeseñas {
+.paragraphreviews {
   text-align: center;
   height: 50px;
   width: auto
 }
 
 /*calendario*/
-.contacto img {
+.contact img {
   height: 120px;
   width: 100%;
 }
-.contacto p {
+.contact p {
   height: 25px;
   width: 100%;
   margin-bottom: 15px;
 }
-.contacto:hover {
+.contact:hover {
   transform: scale(1.1);
 }
-.reseñasdestacados {
+.featuredreviews {
   margin-top: 0px;
    height: 150px;
   width: 100%;
@@ -271,29 +274,27 @@ header a:hover{
   color: rgba(240, 255, 255, 0.805);
   overflow: hidden;
 }
-.redes{
+.networks{
   display:flex;
   flex-wrap: wrap;
   justify-content:space-evenly;
   overflow: hidden;
 }
- .redes img {
+ .networks img {
    width: 40px;
   height: 40px;
  }
- redes:hover {
-  transform: scale(0.2);
-}
+
 
 
 
 /*mediaquery*/
 @media(min-width:768px){
 
-.Carrusel a img {
+.carousel a img {
     width: 100%;
 }
-.Carrusel a img {
+.carousel a img {
     width: 100%;
 }
 }
