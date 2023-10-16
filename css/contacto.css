@@ -82,12 +82,13 @@ header a:hover {
 .reserva_container {
   display: flex;
   background-color: rgba(207, 187, 153, 0.34);
-  width: 100%;
+  width: auto;
   height: 520px;
   justify-content: space-around;
   justify-items: center;
   box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.484);
   overflow: hidden;
+  position: relative;
 }
 
 .phototurist p {
@@ -194,35 +195,36 @@ textarea {
   border-radius: 1em;
 }
 
+/*footer*/
 .footer {
   display: flex;
   justify-content: center;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.86);
+  background-color:rgba(0, 0, 0, 0.86);
   overflow: hidden;
+  position: fixed;
 }
-
 .footer p {
   color: rgba(240, 255, 255, 0.805);
   overflow: hidden;
 }
-
-.networks {
-  display: flex;
+.networks{
+  display:flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
   overflow: hidden;
+  position: fixed;
 }
-
-.networks img {
+ .networks img {
   width: 40px;
   height: 40px;
-}
+ }
+
 
 
 /*media*/
-@media (min-width: 1000px) {
+@media (max-width: 1100px) {
 
   html,
   body {
