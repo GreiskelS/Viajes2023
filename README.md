@@ -34,8 +34,8 @@ menú hamburguesa
 
 ## Herramientas
 
-* [Figma Cajas grises]([https://www.figma.com/file/81HqmjY8Ss7iwT5T6fx6Qo/Prototipado-de-Proyecto-2---Individual-03.04.23?type=design&node-id=0-1&mode=design])
-* [Git/GitHub]([https://github.com/GreiskelS/Viajes2023])
+* [Figma Cajas grises](https://www.figma.com/file/81HqmjY8Ss7iwT5T6fx6Qo/Prototipado-de-Proyecto-2---Individual-03.04.23?type=design&node-id=0-1&mode=design)
+* [Git/GitHub](https://github.com/GreiskelS/Viajes2023)
 * Visual Studio Code
 
 ## Herramientas
