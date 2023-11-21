@@ -8,12 +8,12 @@ En este sitio web encontrarás opciones para elergir tu viaje más deseado
 </div>
 
 ## Características de la página
-Nuestra tienda en línea presenta las siguientes características:
+Nuestra web en línea presenta las siguientes características:
 
-* Catálogo de productos: el sitio web muestra un catálogo de productos organizado por categorías, para que puedas encontrar fácilmente lo que estás buscando.
-* Carrito de la compra: puedes agregar los productos que deseas comprar a tu carrito de la compra y completar tu pedido cuando estés listo.
-* Diseño receptivo: la página está diseñada para ser receptiva y se adapta automáticamente al tamaño de la pantalla del dispositivo del usuario.
-* Navegación sencilla: la navegación es sencilla e intuitiva, con un menú en la parte superior de la página que permite al usuario ir a diferentes secciones de la página
+* Montañas
+* Playas
+* Ciudades
+* Lagos
 
 ## Tecnologías utilizadas
 Para desarrollar nuestra tienda en línea, utilizamos las siguientes tecnologías:
