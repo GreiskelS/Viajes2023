@@ -29,6 +29,8 @@ Proyecto personal
 DEBE ser responsive
 menú hamburguesa
 
+## Finalidad: Aprender a realizar formato responsive - navbar
+
 ## Desarrolladora:  
 - Greiskel
 
@@ -43,3 +45,5 @@ menú hamburguesa
 * CSS
 * JavaScript
 
+## Enlace a página: 
+* https://greiskels.github.io/Viajes2023/
